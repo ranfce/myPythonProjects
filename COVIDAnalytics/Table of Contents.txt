@@ -1,0 +1,9 @@
+-> COVIDsim = Basic Code to run (Instructions inside)
+-> COVIDfunctions = File that contains basic Code's necessary Functions (Instructions inside)
+-> Human = Base Class (Reference only)
+	Contains base Attributes: Age, Is the person sick and on what day [Starting from day -1]
+	Contains a base Function: Print Attributes
+-> Vulnerable = Derived Class (from Human)
+	Additional Attribute: Sickness name (ex. High blood pressure, Lung disease, Diabetes)
+->nonVulnerable = Derived Class (from Human)
+	Additional Attribute: Address name
